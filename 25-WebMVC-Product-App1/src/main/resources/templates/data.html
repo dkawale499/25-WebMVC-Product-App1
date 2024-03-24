@@ -22,6 +22,7 @@
     							<th>Name</th>
     							<th>Price</th>
     							<th>Qty</th>
+    							<th>Action</th>
     						</tr>
     					
     					</thead>
@@ -32,6 +33,9 @@
     							<td th:text="${p.name}"/>
     							<td th:text="${p.price}"/>
     							<td th:text="${p.qty}"/>
+    							<td>
+    								<a href="#" class ="btn btn-danger">Delete</a>
+    							</td>
     							</tr>
     						
     						</tbody>
